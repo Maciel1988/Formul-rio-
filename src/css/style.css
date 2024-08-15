@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../imagem/bg-repeat.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-right: 60px;
+    font-size: 60px;
+}
+
+p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc; /* Borda padrão */
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.error {
+    border-color: red !important; 
+}
+
+.success {
+    border-color: green !important; 
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none; /* Inicialmente oculta */
+    margin-top: 5px;
+}
+
+.required-note {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: left
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #3ccc87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #32b878;
+}
